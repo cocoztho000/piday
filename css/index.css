@@ -1,0 +1,129 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+#piday_top {
+	min-height: 40%;
+	width: 100vw;
+    text-align: center;
+    bottom: 0px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#piday_text {
+	text-align: center;
+    font-family: "Roboto",serif;
+    font-size: 6em;
+    font-weight: 100;
+    line-height: 1.2;
+    padding: 30px 0 30px;
+    margin: 0;
+}
+
+#piday_icon {
+	width: 120px;
+	height: 120px;
+}
+
+/*Bottom section*/
+.half_width_container {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.right_half {
+  float: none;
+}
+
+.left_half {
+  float: none;
+}
+
+#piday_button_container {
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
+
+}
+
+.shadow {
+  box-shadow:         0 2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 2px 5px rgba(0, 0, 0, 0.2);  /* Firefox 3.5 - 3.6 */
+}
+
+#piday_buttons {
+	display: inline-block;
+}
+
+.Center-Container.is-Table {
+	width: 100%;
+	display: table;
+}
+
+.is-Table .Table-Cell {
+
+  display: table-cell;
+  vertical-align: middle;
+}
+.is-Table .Center-Block {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button_margin {
+	margin: 30px;
+}
+
+.google_play_icon {
+	height: 60px;
+}
+
+/*CARD*/
+.box {
+  height: 100px;
+  width: 250px;
+	margin: 30px 30px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto",serif;
+  text-align: center;
+  background-color: #14A47C;
+  display: inline-block;
+  border-radius: 5px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 2px 5px rgba(0, 0, 0, 0.2);  /* Firefox 3.5 - 3.6 */
+
+  -webkit-transition: .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+
+.box:hover::after {
+  background-color: red;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 5px 18px rgba(0, 0, 0, 0.4);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 5px 18px rgba(0, 0, 0, 0.4);  /* Firefox 3.5 - 3.6 */
+}
